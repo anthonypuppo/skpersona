@@ -1,6 +1,6 @@
 # SKPersona
 
-This project is a demonstration of how to give Language Models (LLMs) a unique persona using the logit bias feature. It is built using [C#](https://dotnet.microsoft.com/en-us/languages/csharp), [Semantic Kernel](https://github.com/microsoft/semantic-kernel) and [Catalyst](https://github.com/curiosity-ai/catalyst).
+This project is a demonstration of how to give Language Models (LLMs) a unique persona using part of speech tagging and logit bias. It is built using [C#](https://dotnet.microsoft.com/en-us/languages/csharp), [Semantic Kernel](https://github.com/microsoft/semantic-kernel) and [Catalyst](https://github.com/curiosity-ai/catalyst).
 
 > [!NOTE]
 > The below examples were run using `gpt-3.5-turbo-0613` with `temperature=0` and varying `logit_bias`. LLMs are nondeterministic by nature, so an exact reproduction may be difficult.
